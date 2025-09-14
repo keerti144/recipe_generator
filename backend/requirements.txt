@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+streamlit
+requests
+qdrant-client
+openai
+azure-identity
+fastmcp
+pydantic
+python-dotenv
+sentence-transformers
+numpy
+scikit-learn

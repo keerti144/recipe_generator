@@ -1,0 +1,73 @@
+[
+  {
+    "id": "1",
+    "title": "Quick Tomato Pasta",
+    "ingredients": [
+      "200g pasta",
+      "2 tomatoes",
+      "2 cloves garlic",
+      "olive oil",
+      "salt",
+      "black pepper",
+      "fresh basil"
+    ],
+    "instructions": [
+      "Boil water and cook pasta according to package instructions",
+      "Heat olive oil in a pan and sauté minced garlic",
+      "Add chopped tomatoes and cook for 5 minutes",
+      "Season with salt and pepper",
+      "Mix cooked pasta with tomato sauce",
+      "Garnish with fresh basil and serve"
+    ],
+    "cooking_time": "15 minutes",
+    "difficulty": "easy",
+    "cuisine": "Italian",
+    "servings": 2
+  },
+  {
+    "id": "2",
+    "title": "Cheese Sandwich",
+    "ingredients": [
+      "4 slices bread",
+      "100g cheese",
+      "butter",
+      "salt",
+      "black pepper"
+    ],
+    "instructions": [
+      "Butter one side of each bread slice",
+      "Place cheese between bread slices, buttered sides out",
+      "Heat a pan over medium heat",
+      "Cook sandwich for 2-3 minutes each side until golden",
+      "Cut diagonally and serve hot"
+    ],
+    "cooking_time": "10 minutes",
+    "difficulty": "easy",
+    "cuisine": "Western",
+    "servings": 2
+  },
+  {
+    "id": "3",
+    "title": "Simple Rice Bowl",
+    "ingredients": [
+      "1 cup rice",
+      "2 eggs",
+      "soy sauce",
+      "sesame oil",
+      "green onions",
+      "garlic"
+    ],
+    "instructions": [
+      "Cook rice according to package instructions",
+      "Scramble eggs in a pan with a little oil",
+      "Add cooked rice to the pan with eggs",
+      "Add soy sauce and sesame oil",
+      "Stir everything together for 2-3 minutes",
+      "Garnish with chopped green onions"
+    ],
+    "cooking_time": "20 minutes",
+    "difficulty": "easy",
+    "cuisine": "Asian",
+    "servings": 2
+  }
+]
