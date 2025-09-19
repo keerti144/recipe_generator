@@ -2,6 +2,8 @@
 
 An intelligent recipe generation system that combines **Retrieval-Augmented Generation (RAG)** with **Model Context Protocol (MCP)** to create personalized recipes from available ingredients.
 
+--done by **Hemashri S (23z228), Keerti Dhanyaa R (23z234) and Sruthi A (23z272)**
+
 ## How It Works
 
 **User Experience:**
@@ -95,3 +97,4 @@ Access at: `http://localhost:8501`
 ---
 
 **RAG + MCP = Comprehensive Recipe Intelligence**: Local knowledge base + real-time web data = personalized recipes tailored to your ingredients and preferences.
+
