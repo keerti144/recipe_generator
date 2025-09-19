@@ -8,6 +8,7 @@ class RecipeQuery(BaseModel):
     difficulty_level: Optional[str] = None
     cuisine_type: Optional[str] = None
     servings: Optional[int] = None
+    flavor_profile: Optional[str] = None
 
 class RecipeDocument(BaseModel):
     id: str
