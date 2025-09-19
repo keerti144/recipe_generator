@@ -196,12 +196,18 @@ class RecipeGenerator:
 
 def main():
     # Custom CSS
-    '''
+    
     st.markdown("""
     <style>
+    h1 {
+        white-space: normal !important; /* allow wrap */
+        text-align: center;
+        font-size: 2.2rem;
+        color: #f6d365;
+    }
     /* Overall app background */
     .stApp {
-        background-color: #1e1e1e; /* dark background */
+        background-color: #0e1117; /* dark background */
         color: #f5f5f5;
         font-family: 'Segoe UI', sans-serif;
     }
@@ -209,20 +215,29 @@ def main():
     /* Centered card container */
     .main > div {
         background: #2b2b2b; /* dark grey card */
-        padding: 2rem;
+        padding: 3rem;
         border-radius: 16px;
-        max-width: 700px;
+        max-width: 1200px;
         margin: 2rem auto;
         box-shadow: 0px 4px 20px rgba(0,0,0,0.4);
     }
+                
+    .main .block-container {
+    background-color: #FFE797; /* Change this color */
+    border-radius: 12px;      /* Optional: rounded corners */
+    padding: 20px;            /* Optional: spacing */
+}
 
     /* Title styling */
     h1 {
         text-align: center;
-        font-size: 2rem;
-        font-weight: 600;
-        color: #ffcc70; /* warm accent */
-        margin-bottom: 1rem;
+        font-size: 2.2rem;
+        font-weight: 700;
+        color: #f6d365; /* soft yellow from palette */
+        margin-bottom: 1.5rem;
+        white-space: nowrap; /* 🚀 keep title in one line */
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     /* Input fields */
@@ -235,33 +250,41 @@ def main():
 
     /* Labels */
     label, .stTextArea label, .stTextInput label {
-        color: #cccccc !important;
+        color: #e0e0e0 !important;
         font-weight: 500;
     }
 
     /* Button styling */
     .stButton button {
-        background-color: #ff7043; /* orange accent */
+        background-color: #f6ae2d; /* warm orange */
         color: white;
         font-weight: bold;
         border-radius: 10px;
-        padding: 0.6rem 1.2rem;
+        padding: 0.6rem 1.4rem;
         border: none;
         transition: 0.2s;
     }
     .stButton button:hover {
-        background-color: #ff5722;
+        background-color: #f26419; /* deeper orange */
         transform: scale(1.05);
     }
 
     /* Recipe output headings */
     h2, h3 {
-        color: #ffcc70; /* accent headings */
+        color: #86a873; /* green accent */
         margin-top: 1.5rem;
+    }
+
+    /* Success message accent */
+    .stSuccess {
+        background-color: #d9ed92;
+        color: #2b2b2b;
+        border-radius: 8px;
     }
     </style>
     """, unsafe_allow_html=True)
-    '''
+
+    
 
 
     st.title("🍳 Recipe Generator with RAG and MCP 🍳")
