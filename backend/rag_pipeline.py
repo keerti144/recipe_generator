@@ -333,7 +333,7 @@ Make it detailed, practical, and delicious!"""
                     {"role": "system", "content": system_prompt},
                     {"role": "user", "content": user_prompt}
                 ],
-                max_tokens=2500,
+                max_tokens=1500,
                 temperature=0.3  # Lower temperature for more consistent results
             )
 
