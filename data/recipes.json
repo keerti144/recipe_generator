@@ -12,12 +12,14 @@
       "fresh basil"
     ],
     "instructions": [
-      "Boil water and cook pasta according to package instructions",
-      "Heat olive oil in a pan and sauté minced garlic",
-      "Add chopped tomatoes and cook for 5 minutes",
-      "Season with salt and pepper",
-      "Mix cooked pasta with tomato sauce",
-      "Garnish with fresh basil and serve"
+      "Fill large pot with water and bring to boil for 5 minutes",
+      "Add pasta and cook, stirring every 2 minutes for 8 minutes",
+      "While pasta cooks, heat olive oil in pan for 1 minute",
+      "Add minced garlic and sauté, stirring constantly for 2 minutes",
+      "Add chopped tomatoes and cook, stirring every minute for 5 minutes",
+      "Season with salt and pepper, stir for 1 minute",
+      "Drain pasta and mix with tomato sauce, tossing for 2 minutes",
+      "Garnish with fresh basil and let rest for 1 minute before serving"
     ],
     "cooking_time": "15 minutes",
     "difficulty": "easy",
@@ -35,11 +37,15 @@
       "black pepper"
     ],
     "instructions": [
-      "Butter one side of each bread slice",
-      "Place cheese between bread slices, buttered sides out",
-      "Heat a pan over medium heat",
-      "Cook sandwich for 2-3 minutes each side until golden",
-      "Cut diagonally and serve hot"
+      "Let butter soften at room temperature for 2 minutes",
+      "Butter one side of each bread slice, taking 2 minutes to spread evenly",
+      "Slice cheese carefully and arrange on bread for 2 minutes",
+      "Season cheese with salt and pepper for 1 minute",
+      "Assemble sandwiches with buttered sides out, press gently for 1 minute",
+      "Heat pan over medium heat for 1 minute until ready",
+      "Place sandwiches in pan and cook for 3 minutes until golden",
+      "Flip carefully and cook other side for 3 minutes",
+      "Remove from heat, cut diagonally and let cool for 1 minute before serving"
     ],
     "cooking_time": "10 minutes",
     "difficulty": "easy",
@@ -58,16 +64,221 @@
       "garlic"
     ],
     "instructions": [
-      "Cook rice according to package instructions",
-      "Scramble eggs in a pan with a little oil",
-      "Add cooked rice to the pan with eggs",
-      "Add soy sauce and sesame oil",
-      "Stir everything together for 2-3 minutes",
-      "Garnish with chopped green onions"
+      "Rinse rice until water runs clear for 2 minutes",
+      "Bring water to boil and add rice, cook for 12 minutes stirring occasionally",
+      "While rice cooks, beat eggs for 1 minute until smooth",
+      "Heat oil in large pan for 1 minute",
+      "Scramble eggs slowly, stirring constantly for 3 minutes until fluffy",
+      "Add minced garlic to eggs and stir for 1 minute",
+      "Add cooked rice to pan with eggs and mix thoroughly for 2 minutes",
+      "Add soy sauce and sesame oil, stir continuously for 2 minutes",
+      "Continue stirring and cooking for 3 more minutes until well combined",
+      "Chop green onions and garnish, let rest for 2 minutes before serving"
     ],
     "cooking_time": "20 minutes",
     "difficulty": "easy",
     "cuisine": "Asian",
     "servings": 2
+  },
+  {
+    "id": "4",
+    "title": "Avocado Toast",
+    "ingredients": [
+      "2 slices bread",
+      "1 ripe avocado",
+      "lemon juice",
+      "salt",
+      "black pepper",
+      "cherry tomatoes",
+      "olive oil"
+    ],
+    "instructions": [
+      "Toast bread slices for 2 minutes until golden brown",
+      "Cut avocado carefully and remove pit, taking 1 minute",
+      "Mash avocado slowly with fork for 1 minute until smooth",
+      "Add lemon juice, salt, and pepper, mix for 30 seconds",
+      "Spread avocado mixture evenly on toast for 30 seconds",
+      "Wash and halve cherry tomatoes for 1 minute",
+      "Arrange tomatoes on toast carefully for 30 seconds",
+      "Drizzle olive oil and let flavors settle for 30 seconds before serving"
+    ],
+    "cooking_time": "5 minutes",
+    "difficulty": "easy",
+    "cuisine": "Western",
+    "servings": 1
+  },
+  {
+    "id": "5",
+    "title": "Chicken Stir Fry",
+    "ingredients": [
+      "300g chicken breast",
+      "mixed vegetables",
+      "soy sauce",
+      "garlic",
+      "ginger",
+      "vegetable oil",
+      "rice"
+    ],
+    "instructions": [
+      "Cut chicken into small uniform pieces for 3 minutes",
+      "Prepare vegetables by chopping for 2 minutes",
+      "Heat oil in wok over high heat for 1 minute",
+      "Add chicken and stir continuously for 5 minutes until golden",
+      "Push chicken to one side, add minced garlic and ginger for 1 minute",
+      "Add vegetables and stir-fry, tossing every 30 seconds for 4 minutes",
+      "Add soy sauce and toss everything together for 2 minutes",
+      "Continue stir-frying for final 2 minutes until heated through",
+      "Serve immediately over pre-cooked rice"
+    ],
+    "cooking_time": "15 minutes",
+    "difficulty": "easy",
+    "cuisine": "Asian",
+    "servings": 2
+  },
+  {
+    "id": "6",
+    "title": "Greek Salad",
+    "ingredients": [
+      "2 tomatoes",
+      "1 cucumber",
+      "red onion",
+      "100g feta cheese",
+      "black olives",
+      "olive oil",
+      "lemon juice",
+      "oregano"
+    ],
+    "instructions": [
+      "Wash and chop tomatoes into chunks for 2 minutes",
+      "Peel and dice cucumber carefully for 2 minutes",
+      "Slice red onion very thinly for 1 minute",
+      "Combine all vegetables in large bowl, toss gently for 1 minute",
+      "Add olives and mix for 30 seconds",
+      "Crumble feta cheese over salad for 1 minute",
+      "Whisk olive oil, lemon juice, and oregano in small bowl for 1 minute",
+      "Pour dressing over salad and toss gently for 1 minute",
+      "Let flavors meld for final 1 minute 30 seconds before serving"
+    ],
+    "cooking_time": "10 minutes",
+    "difficulty": "easy",
+    "cuisine": "Mediterranean",
+    "servings": 2
+  },
+  {
+    "id": "7",
+    "title": "Banana Pancakes",
+    "ingredients": [
+      "2 ripe bananas",
+      "2 eggs",
+      "1/4 cup flour",
+      "pinch of salt",
+      "butter",
+      "honey",
+      "cinnamon"
+    ],
+    "instructions": [
+      "Mash bananas thoroughly in bowl for 2 minutes until completely smooth",
+      "Beat in eggs one at a time for 1 minute until well combined",
+      "Add flour, salt, and cinnamon, whisk for 1 minute",
+      "Let batter rest while heating butter in pan for 1 minute",
+      "Pour small amounts of batter to make pancakes",
+      "Cook first side for 2 minutes until bubbles form",
+      "Flip carefully and cook second side for 2 minutes",
+      "Repeat process for remaining batter, about 2 more minutes",
+      "Drizzle with honey and let cool for 1 minute before serving"
+    ],
+    "cooking_time": "10 minutes",
+    "difficulty": "easy",
+    "cuisine": "Western",
+    "servings": 2
+  },
+  {
+    "id": "8",
+    "title": "Quesadilla",
+    "ingredients": [
+      "2 flour tortillas",
+      "100g cheese",
+      "bell pepper",
+      "onion",
+      "olive oil",
+      "salsa",
+      "sour cream"
+    ],
+    "instructions": [
+      "Dice bell pepper and onion finely for 2 minutes",
+      "Heat oil in pan for 1 minute",
+      "Sauté vegetables, stirring every 30 seconds for 4 minutes until soft",
+      "Remove vegetables and set aside for 30 seconds",
+      "Grate cheese if needed for 1 minute",
+      "Place cheese and vegetables on one tortilla for 1 minute",
+      "Top with second tortilla and press gently for 30 seconds",
+      "Cook in pan for 2 minutes until bottom is crispy",
+      "Flip carefully and cook other side for 2 minutes",
+      "Cut into wedges and serve with salsa and sour cream"
+    ],
+    "cooking_time": "12 minutes",
+    "difficulty": "easy",
+    "cuisine": "Mexican",
+    "servings": 2
+  },
+  {
+    "id": "9",
+    "title": "Tuna Salad",
+    "ingredients": [
+      "1 can tuna",
+      "2 tbsp mayonnaise",
+      "celery",
+      "red onion",
+      "lemon juice",
+      "salt",
+      "black pepper",
+      "lettuce leaves"
+    ],
+    "instructions": [
+      "Open and drain tuna completely for 1 minute",
+      "Place tuna in large bowl and flake with fork for 1 minute",
+      "Finely chop celery stalks for 2 minutes",
+      "Dice red onion very small for 1 minute",
+      "Add vegetables to tuna and mix for 1 minute",
+      "Add mayonnaise and stir thoroughly for 1 minute",
+      "Squeeze lemon juice and add to mixture for 30 seconds",
+      "Season with salt and pepper, mix well for 30 seconds",
+      "Prepare lettuce leaves and let salad chill for 1 minute before serving"
+    ],
+    "cooking_time": "8 minutes",
+    "difficulty": "easy",
+    "cuisine": "Western",
+    "servings": 2
+  },
+  {
+    "id": "10",
+    "title": "Vegetable Soup",
+    "ingredients": [
+      "mixed vegetables",
+      "vegetable broth",
+      "onion",
+      "garlic",
+      "olive oil",
+      "salt",
+      "black pepper",
+      "herbs"
+    ],
+    "instructions": [
+      "Chop onion and garlic finely for 3 minutes",
+      "Heat oil in large pot for 1 minute",
+      "Sauté onion, stirring every minute for 4 minutes until soft",
+      "Add garlic and stir constantly for 1 minute until fragrant",
+      "Chop mixed vegetables while aromatics cook for 3 minutes",
+      "Add vegetables to pot and stir for 2 minutes",
+      "Pour in broth and bring to boil over 3 minutes",
+      "Reduce heat and simmer, stirring every 3 minutes for 15 minutes",
+      "Season with salt, pepper, and herbs, stir for 1 minute",
+      "Let simmer for final 2 minutes before serving hot"
+    ],
+    "cooking_time": "25 minutes",
+    "difficulty": "easy",
+    "cuisine": "Western",
+    "servings": 3
   }
+
 ]
