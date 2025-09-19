@@ -193,21 +193,100 @@ class RecipeGenerator:
 
 
 # ---------------- Streamlit UI ----------------
+
 def main():
-    st.title("🍳 Recipe Generator with RAG")
+    # Custom CSS
+    '''
+    st.markdown("""
+    <style>
+    /* Overall app background */
+    .stApp {
+        background-color: #1e1e1e; /* dark background */
+        color: #f5f5f5;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    /* Centered card container */
+    .main > div {
+        background: #2b2b2b; /* dark grey card */
+        padding: 2rem;
+        border-radius: 16px;
+        max-width: 700px;
+        margin: 2rem auto;
+        box-shadow: 0px 4px 20px rgba(0,0,0,0.4);
+    }
+
+    /* Title styling */
+    h1 {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 600;
+        color: #ffcc70; /* warm accent */
+        margin-bottom: 1rem;
+    }
+
+    /* Input fields */
+    .stTextArea textarea, .stTextInput input {
+        background-color: #1e1e1e !important;
+        color: #ffffff !important;
+        border-radius: 10px !important;
+        border: 1px solid #444 !important;
+    }
+
+    /* Labels */
+    label, .stTextArea label, .stTextInput label {
+        color: #cccccc !important;
+        font-weight: 500;
+    }
+
+    /* Button styling */
+    .stButton button {
+        background-color: #ff7043; /* orange accent */
+        color: white;
+        font-weight: bold;
+        border-radius: 10px;
+        padding: 0.6rem 1.2rem;
+        border: none;
+        transition: 0.2s;
+    }
+    .stButton button:hover {
+        background-color: #ff5722;
+        transform: scale(1.05);
+    }
+
+    /* Recipe output headings */
+    h2, h3 {
+        color: #ffcc70; /* accent headings */
+        margin-top: 1.5rem;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+    '''
+
+
+    st.title("🍳 Recipe Generator with RAG and MCP 🍳")
     st.write("Enter ingredients and optional conditions to get a recipe!")
 
     generator = RecipeGenerator()
 
     ingredients_input = st.text_area("📝 Enter ingredients (comma-separated)")
-    conditions_input = st.text_input("⚙️ Enter conditions (optional)")
+    conditions_input = st.text_input("⚙️ Enter conditions")
+
 
     if st.button("Generate Recipe"):
         if not ingredients_input.strip():
             st.warning("⚠️ Please enter at least one ingredient")
         else:
             ingredients = [ing.strip() for ing in ingredients_input.split(",") if ing.strip()]
-            generator.search_recipes(ingredients, conditions_input)
+
+            
+            # ⏳ Show spinner while recipe is being generated
+            with st.spinner("👨‍🍳 Cooking up your recipe..."):
+                generator.search_recipes(ingredients, conditions_input)
+            
+            st.success("✅ Recipe ready!")
+
+            
 
 
 if __name__ == "__main__":
